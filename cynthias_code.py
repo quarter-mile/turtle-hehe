@@ -5,11 +5,11 @@ pencolor('dark green')
 pensize(20)
 speed(100)
 
-#Outline Square
+# Outline Square
 for i in range(4): 
  forward(140)
  left(90)
-#Fill Square
+# Fill Square
 for i in range(6): 
  forward(140-(i*20))
  left(90)
@@ -18,29 +18,29 @@ for i in range(6):
  right(90)
  backward(140-(i*20))
 
-#Get into position for first eye
+# Get into position for first eye
 penup() 
 forward(30)
 pendown()
 pencolor('black') 
 
-#Draw first eye
+# Draw first eye
 for i in range(4):
  forward(20)
  right(90)
 
-#Get into position for second eye
+# Get into position for second eye
 penup()
 forward(60)
 pendown()
 pencolor('black')
 
-#Draw second eye
+# Draw second eye
 for i in range(4):
  forward(20)
  right(90)
 
-#Get into position for nose
+# Get into position for nose
 penup()
 backward(30)
 right(90)
@@ -48,7 +48,7 @@ forward(34)
 left(90)
 pendown()
 
-#Draw Nose
+# Draw Nose
 forward(20)
 right(90)
 forward(30)
@@ -57,20 +57,20 @@ forward(20)
 right(90)
 forward(30)
 
-#Get into position for left nostril
+# Get into position for left nostril
 backward(15)
 left(90)
 forward(15)
 left(90)
 
-#Draw Left Nostril 
+# Draw Left Nostril 
 forward(30)
 
-#Get into position for right nostril 
+# Get into position for right nostril 
 backward(30)
 left(90)
 forward(50)
 right(90)
 
-#Draw Right Nostril 
+# Draw Right Nostril 
 forward(30)
