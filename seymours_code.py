@@ -1,7 +1,7 @@
 from turtle import *
 
 
-#Letter E
+# Letter E
 penup()
 setpos(-120,-40)
 pencolor ('light green')
@@ -20,7 +20,7 @@ right(90)
 forward(30)
 backward(30)
 
-#Letter P
+# Letter P
 penup()
 setpos(-60,-40)
 pencolor ('royal blue')
@@ -38,7 +38,7 @@ forward(30)
 right(90)
 forward(40)
 
-#Letter I
+# Letter I
 penup()
 setpos(0,-40)
 pencolor ('indigo')
@@ -47,7 +47,7 @@ pensize (10)
 left(180)
 forward(80)
 
-#Letter C
+# Letter C
 penup()
 setpos(60,-40)
 pencolor ('violet')
